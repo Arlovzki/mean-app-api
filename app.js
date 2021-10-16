@@ -12,7 +12,7 @@ mongoose
     .connect(
         'mongodb+srv://admin:'
         + process.env.MONGO_ATLAS_PW +
-        '@cluster0.txbio.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')
+        '@cluster0.vu3yv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')
     .then(() => { console.log('Connected to database!') })
     .catch(() => { console.log('Connection failed!') })
 
@@ -32,3 +32,4 @@ app.use('/api/user', userRoutes);
 
 
 module.exports = app;
+
