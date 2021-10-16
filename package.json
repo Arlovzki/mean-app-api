@@ -2,6 +2,9 @@
   "name": "message-app-api",
   "version": "1.0.0",
   "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "bcrypt": "^5.0.1",
     "body-parser": "^1.19.0",
